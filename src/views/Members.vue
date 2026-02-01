@@ -8,7 +8,7 @@
       <li><h3>Niladri Adhikary</h3></li>
       <li><h3>Valyn Tyler</h3></li>
       <li>
-        <h3>Adrain Fluturel</h3>
+        <h3>Adrian Fluturel</h3>
         <h3 class="coach">Coach</h3>
       </li>
     </ul>
