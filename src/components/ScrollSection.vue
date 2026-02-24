@@ -8,7 +8,7 @@
 
 <style scoped>
 section {
-  height: 100vh;
+  height: 100dvh;
   /* border: 1px solid var(--text-primary); */
   display: flex;
   flex-direction: column;

@@ -20,7 +20,7 @@ body {
   background: var(--bg-color);
   color: var(--text-primary);
   line-height: 1.4;
-  min-height: 100vh;
+  min-height: 100dvh;
   font-size: 18px;
 }
 
