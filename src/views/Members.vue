@@ -54,4 +54,13 @@ li {
   gap: 10px;
   display: flex;
 }
+
+a {
+  color: var(--text-primary-dim);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 </style>
