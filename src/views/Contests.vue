@@ -11,7 +11,7 @@ import ContentList from "@/components/ContentList.vue";
     <ContentItem>
       <span>
         <h3><a target="_blank" href="https://2025.nwerc.eu">NWERC</a></h3>
-        <h3><Timer></Timer></h3>
+        <h3>28-30 Nov, 2025</h3>
       </span>
       <h3>Northwestern Europe Regional Contest</h3>
     </ContentItem>
