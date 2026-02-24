@@ -5,8 +5,18 @@
     <h2>Team</h2>
     <ul>
       <li><h3>Anton Anapreyenka</h3></li>
-      <li><h3>Niladri Adhikary</h3></li>
-      <li><h3>Valyn Tyler</h3></li>
+      <li>
+        <h3>
+          <a href="https://www.linkedin.com/in/niladri-adhikary-23b3282a3/"
+            >Niladri Adhikary</a
+          >
+        </h3>
+      </li>
+      <li>
+        <h3>
+          <a href="https://www.linkedin.com/in/valyn-tyler/">Valyn Tyler</a>
+        </h3>
+      </li>
       <li>
         <h3>Adrian Fluturel</h3>
         <h3 class="coach">Coach</h3>
