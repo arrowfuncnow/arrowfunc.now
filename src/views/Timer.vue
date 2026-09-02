@@ -2,19 +2,21 @@
 import moment from "moment";
 import { ref } from "vue";
 
-const dday = new Date("2025-11-30T10:00:00");
-const time = ref();
+const props = defineProps({
+	dday: Date,
+});
+
+const diff = ref();
 
 setInterval(() => {
-  const left = new Date(dday.getTime() - new Date().getTime());
-  const cs = String(Math.floor(left.getMilliseconds() / 10)).padStart(2, "0");
-
-  time.value = `${moment(left).format("DD:hh:mm:ss")}:${cs}`;
+	const duration = moment.duration(moment(props.dday).diff(moment()));
+	const result = `${duration.days()} days, ${duration.hours()} hours, ${duration.minutes()} minutes ${duration.seconds()} seconds`;
+	diff.value = result;
 }, 0);
 </script>
 
 <template>
-  {{ time }}
+  {{ diff }}
 </template>
 
 <style scoped></style>
