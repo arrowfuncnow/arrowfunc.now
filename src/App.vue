@@ -6,15 +6,11 @@ import Footer from "./views/Footer.vue";
 import Header from "./views/Header.vue";
 
 import Members from "./views/Members.vue";
-import Timer from "./views/Timer.vue";
 import TextMode from "./views/textmode/TextMode.vue";
 </script>
 
 <template>
   <ScrollColumn>
-    <ScrollSection>
-      <Timer :dday="new Date('2026-09-26T11:00:00')"></Timer>
-    </ScrollSection>
     <ScrollSection>
       <TextMode></TextMode>
       <Header></Header>
