@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Timer from "./Timer.vue";
+import Timer from "@/components/Timer.vue";
 
 const dday = new Date("2026-09-26T12:00:00");
 </script>

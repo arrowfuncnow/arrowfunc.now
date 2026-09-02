@@ -2,8 +2,6 @@
 import moment from "moment";
 import { ref } from "vue";
 
-import ContentItem from "@/components/ContentItem.vue";
-
 const props = defineProps({
 	dday: Date,
 });
